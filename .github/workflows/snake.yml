@@ -1,0 +1,33 @@
+# Dibuja el gráfico de contribuciones con una viborita que se lo come, en versión clara y
+# oscura, y lo publica en la rama output. El README lo toma de ahí.
+name: Viborita de contribuciones
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Los mismos ámbar del resto del perfil, del más tenue al más fuerte.
+          outputs: |
+            dist/snake-light.svg?palette=github-light&color_snake=#b45309&color_dots=#ebedf0,#fde68a,#fbbf24,#f59e0b,#b45309
+            dist/snake-dark.svg?palette=github-dark&color_snake=#f5a524&color_dots=#161b22,#4d3810,#7c5612,#c47f12,#f5a524
+
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img" aria-labelledby="title desc">
+  <title id="title">GET /api/v1/developers/jcaparr</title>
+  <desc id="desc">Juan Martín Caparrós, Software Developer en Mercado Libre, Buenos Aires. Lenguajes: Java, Go, Python y TypeScript. Foco en APIs REST, microservicios e IA aplicada. Construyendo Hamburgueserías BA. Estudia Analista Programador en la UAI. Habla español e inglés B2.</desc>
+  <defs>
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif}
+      .mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}
+      .ln{opacity:0;animation:ln .45s ease-out forwards}
+      @keyframes ln{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+      .ok path{stroke-dasharray:16;stroke-dashoffset:16;animation:draw .35s ease-out forwards;animation-delay:inherit}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      .k{fill:#8250df}.s{fill:#0a3069}.p{fill:#59636e}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="468" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+
+  <!-- Barra de la ventana -->
+  <circle cx="26" cy="24" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="24" r="6" fill="#febc2e"/>
+  <circle cx="66" cy="24" r="6" fill="#28c840"/>
+  <text class="mono" x="480" y="29" font-size="13" fill="#59636e" text-anchor="middle">sobre-mi.http</text>
+  <path d="M2 48H958" stroke="#d0d7de" stroke-width="1.5"/>
+
+  <!-- La petición -->
+  <rect x="24" y="64" width="912" height="44" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="mono" x="44" y="91" font-size="15" font-weight="700" fill="#0969da">GET</text>
+  <path d="M90 74V98" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="mono" x="106" y="91" font-size="15" fill="#1f2328">/api/v1/developers/jcaparr</text>
+  <rect x="832" y="70" width="96" height="32" rx="8" fill="#f6a723"/>
+  <text class="sans" x="880" y="91" font-size="14" font-weight="700" fill="#1a1205" text-anchor="middle">Enviar</text>
+
+  <!-- Pestañas y estado -->
+  <text class="sans" x="24" y="142" font-size="14" font-weight="600" fill="#1f2328">Body</text>
+  <rect x="24" y="152" width="36" height="2.5" rx="1" fill="#b45309"/>
+  <text class="sans" x="80" y="142" font-size="14" fill="#6e7781">Headers (3)</text>
+  <text class="mono" x="620" y="142" font-size="13" text-anchor="end"><tspan fill="#1a7f37" font-weight="700">200 OK</tspan><tspan fill="#6e7781">  ·  38 ms  ·  612 B</tspan></text>
+
+  <text class="sans" x="656" y="142" font-size="14" font-weight="600" fill="#1f2328">Tests</text>
+  <rect x="700" y="128" width="40" height="20" rx="10" fill="#1a7f37" fill-opacity=".15"/>
+  <text class="mono" x="720" y="142" font-size="12" font-weight="700" fill="#1a7f37" text-anchor="middle">6/6</text>
+
+  <path d="M24 160H936" stroke="#d0d7de" stroke-width="1.5"/>
+  <path d="M636 124V446" stroke="#d0d7de" stroke-width="1.5"/>
+
+  <!-- El cuerpo de la respuesta -->
+  <g class="mono" font-size="14" fill="#6e7781" text-anchor="end">
+    <text x="50" y="192">1</text><text x="50" y="216">2</text><text x="50" y="240">3</text>
+    <text x="50" y="264">4</text><text x="50" y="288">5</text><text x="50" y="312">6</text>
+    <text x="50" y="336">7</text><text x="50" y="360">8</text><text x="50" y="384">9</text>
+    <text x="50" y="408">10</text><text x="50" y="432">11</text>
+  </g>
+  <g class="mono" font-size="15">
+    <text class="ln" x="68" y="192" style="animation-delay:.3s"><tspan class="p">{</tspan></text>
+    <text class="ln" x="86" y="216" style="animation-delay:.42s"><tspan class="k">"nombre"</tspan><tspan class="p">: </tspan><tspan class="s">"Juan Martín Caparrós"</tspan><tspan class="p">,</tspan></text>
+    <text class="ln" x="86" y="240" style="animation-delay:.54s"><tspan class="k">"rol"</tspan><tspan class="p">: </tspan><tspan class="s">"Software Developer"</tspan><tspan class="p">,</tspan></text>
+    <text class="ln" x="86" y="264" style="animation-delay:.66s"><tspan class="k">"empresa"</tspan><tspan class="p">: </tspan><tspan class="s">"Mercado Libre"</tspan><tspan class="p">,</tspan></text>
+    <text class="ln" x="86" y="288" style="animation-delay:.78s"><tspan class="k">"base"</tspan><tspan class="p">: </tspan><tspan class="s">"Buenos Aires, Argentina"</tspan><tspan class="p">,</tspan></text>
+    <text class="ln" x="86" y="312" style="animation-delay:.9s"><tspan class="k">"lenguajes"</tspan><tspan class="p">: [</tspan><tspan class="s">"Java"</tspan><tspan class="p">, </tspan><tspan class="s">"Go"</tspan><tspan class="p">, </tspan><tspan class="s">"Python"</tspan><tspan class="p">, </tspan><tspan class="s">"TypeScript"</tspan><tspan class="p">],</tspan></text>
+    <text class="ln" x="86" y="336" style="animation-delay:1.02s"><tspan class="k">"foco"</tspan><tspan class="p">: [</tspan><tspan class="s">"APIs REST"</tspan><tspan class="p">, </tspan><tspan class="s">"microservicios"</tspan><tspan class="p">, </tspan><tspan class="s">"IA aplicada"</tspan><tspan class="p">],</tspan></text>
+    <text class="ln" x="86" y="360" style="animation-delay:1.14s"><tspan class="k">"construyendo"</tspan><tspan class="p">: </tspan><tspan class="s">"Hamburgueserías BA"</tspan><tspan class="p">,</tspan></text>
+    <text class="ln" x="86" y="384" style="animation-delay:1.26s"><tspan class="k">"estudiando"</tspan><tspan class="p">: </tspan><tspan class="s">"Analista Programador · UAI"</tspan><tspan class="p">,</tspan></text>
+    <text class="ln" x="86" y="408" style="animation-delay:1.38s"><tspan class="k">"idiomas"</tspan><tspan class="p">: [</tspan><tspan class="s">"español"</tspan><tspan class="p">, </tspan><tspan class="s">"inglés B2"</tspan><tspan class="p">]</tspan></text>
+    <text class="ln" x="68" y="432" style="animation-delay:1.5s"><tspan class="p">}</tspan></text>
+  </g>
+
+  <!-- Los tests -->
+  <g class="sans" font-size="14" fill="#31373d">
+    <g class="ln" style="animation-delay:1.8s">
+      <circle cx="668" cy="187" r="9" fill="#1a7f37" fill-opacity=".15"/>
+      <g class="ok" style="animation-delay:1.9s"><path d="M663.5 187.5l3 3 6-6.5" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="686" y="192">escribe código mantenible</text>
+    </g>
+    <g class="ln" style="animation-delay:2s">
+      <circle cx="668" cy="227" r="9" fill="#1a7f37" fill-opacity=".15"/>
+      <g class="ok" style="animation-delay:2.1s"><path d="M663.5 227.5l3 3 6-6.5" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="686" y="232">prueba antes de mergear</text>
+    </g>
+    <g class="ln" style="animation-delay:2.2s">
+      <circle cx="668" cy="267" r="9" fill="#1a7f37" fill-opacity=".15"/>
+      <g class="ok" style="animation-delay:2.3s"><path d="M663.5 267.5l3 3 6-6.5" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="686" y="272">documenta el porqué</text>
+    </g>
+    <g class="ln" style="animation-delay:2.4s">
+      <circle cx="668" cy="307" r="9" fill="#1a7f37" fill-opacity=".15"/>
+      <g class="ok" style="animation-delay:2.5s"><path d="M663.5 307.5l3 3 6-6.5" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="686" y="312">automatiza lo repetitivo</text>
+    </g>
+    <g class="ln" style="animation-delay:2.6s">
+      <circle cx="668" cy="347" r="9" fill="#1a7f37" fill-opacity=".15"/>
+      <g class="ok" style="animation-delay:2.7s"><path d="M663.5 347.5l3 3 6-6.5" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="686" y="352">monitorea lo que despliega</text>
+    </g>
+    <g class="ln" style="animation-delay:2.8s">
+      <circle cx="668" cy="387" r="9" fill="#1a7f37" fill-opacity=".15"/>
+      <g class="ok" style="animation-delay:2.9s"><path d="M663.5 387.5l3 3 6-6.5" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="686" y="392">integra IA donde suma</text>
+    </g>
+  </g>
+  <text class="mono ln" x="656" y="432" font-size="12" style="animation-delay:3.1s"><tspan fill="#1a7f37">6 pasaron</tspan><tspan fill="#6e7781">  ·  0 fallaron</tspan></text>
+</svg>
